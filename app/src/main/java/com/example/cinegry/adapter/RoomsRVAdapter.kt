@@ -28,8 +28,8 @@ class RoomsRVAdapter(
             with(mList[position]){
                 Picasso.get()
                     .load(image_url)
-//                    .placeholder(R.drawable.user_placeholder)
-//                    .error(R.drawable.user_placeholder_error)
+                    .placeholder(R.drawable.img_placeholder)
+                    .error(R.drawable.img_placeholder)
                     .into(binding.ivMovie)
                 binding.tvTitle.text = Title
                 binding.root.setOnClickListener {

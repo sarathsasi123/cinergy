@@ -8,6 +8,7 @@ import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.cinegry.R
 import com.example.cinegry.adapter.DateRVAdapter
 import com.example.cinegry.adapter.TimeRVAdapter
 import com.example.cinegry.databinding.ActivityDetailedBinding
@@ -75,8 +76,8 @@ class DetailedActivity : AppCompatActivity() {
         data.apply {
             Picasso.get()
                 .load(movie_info.image_url)
-//                    .placeholder(R.drawable.user_placeholder)
-//                    .error(R.drawable.user_placeholder_error)
+                    .placeholder(R.drawable.img_placeholder)
+                    .error(R.drawable.img_placeholder)
                 .into(binding.ivMain);
 
             binding.tvTitle.text = movie_info.Title

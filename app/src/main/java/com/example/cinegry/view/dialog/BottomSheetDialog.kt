@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.cinegry.R
 import com.example.cinegry.databinding.BottomSheetLayoutBinding
 import com.example.cinegry.model.response.EscapeRoomsMovy
 import com.example.cinegry.utils.ARG_DATA
@@ -35,6 +36,8 @@ class BottomSheetDialog(private val escapeRoomsMovy: EscapeRoomsMovy) : BottomSh
         }
         Picasso.get()
             .load(escapeRoomsMovy.image_url)
+                    .placeholder(R.drawable.img_placeholder)
+                    .error(R.drawable.img_placeholder)
             .into(binding.ivMain);
 
         return binding.root
