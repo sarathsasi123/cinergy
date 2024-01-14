@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cinegry</string>
+    <string name="join_the_magic">Join the magic</string>
+    <string name="be_cinergy_elite">Be Cinergy ELITE!!</string>
+    <string name="enjoy_a_5_00_elite_reward_after_300_points_to_spend_however_you_want">Enjoy a $5.00 Elite reward after 300 points to spend however you want.</string>
+    <string name="enjoy_a_special_birthday_movie_ticket_offer">Enjoy a special birthday movie ticket offer.</string>
+    <string name="enjoy_exclusive_content_sneak_peaks_and_special_offers">Enjoy exclusive content, sneak peaks, and special offers!.</string>
+    <string name="sign_in_now">Sign In Now!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="continue_as_guest">Continue As Guest</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="upto_8_members">Upto 8 members</string>
+    <string name="_60_mins">60 mins</string>
+    <string name="this_is_a_title">This is a title</string>
+    <string name="book_now">Book Now</string>
+    <string name="description">description</string>
+    <string name="back">Back</string>
+    <string name="tulsa_ok">Tulsa, OK</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="mon">Mon</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="escape_rooms">Escape Rooms</string>
+    <string name="continue_">Continue</string>
+</resources>
